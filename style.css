@@ -1549,7 +1549,8 @@ footer nav a:hover { color: var(--gold); border-color: transparent; }
   width: 100%;
   height: 220px;
   display: block;
-  object-fit: cover;
+  object-fit: contain;
+background: #ffffff;
 }
 
 .vault-card-content {
