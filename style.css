@@ -1645,6 +1645,8 @@ background: #ffffff;
 
 .vault-nav {
     background: #4777c8;
+    padding: 0;
+    margin: 0;
 }
 
 .vault-nav-links {
@@ -1652,8 +1654,10 @@ background: #ffffff;
     justify-content: center;
     align-items: center;
     gap: 18px;
-    padding: 8px 20px;
     flex-wrap: wrap;
+    min-height: 48px;
+    padding: 0;
+    margin: 0;
 }
 
 .vault-nav-links a {
