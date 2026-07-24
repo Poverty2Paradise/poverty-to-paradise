@@ -1378,7 +1378,8 @@ footer nav a:hover { color: var(--gold); border-color: transparent; }
   font-size: 0.9rem;
   font-weight: 700;
   letter-spacing: 0.08em;
-text-transform: none;
+  text-transform: none;
+}
 
 .footer-column a {
   color: #ffffff;
@@ -1504,10 +1505,12 @@ text-transform: none;
 
 .vault-section {
   padding: 44px 0 70px;
+  background: #ffffff;
 }
 
 .vault-section h2 {
   margin: 0 0 28px;
+  color: #0E3A68;
   text-align: center;
 }
 
