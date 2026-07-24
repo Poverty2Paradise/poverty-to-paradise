@@ -1578,14 +1578,54 @@ background: #ffffff;
   text-transform: uppercase;
 }
 
-@media (max-width: 950px) {
-  .vault-card-grid-two {
-    grid-template-columns: minmax(0, 420px);
-  }
+.vault-section-alt {
+    padding-top: 60px;
+}
 
-  .vault-card {
-    width: 100%;
-  }
+.vault-card-grid-three {
+    display: grid;
+    grid-template-columns: repeat(3, 420px);
+    gap: 28px;
+    justify-content: center;
+}
+
+@media (max-width: 1380px) {
+
+    .vault-card-grid-three {
+        grid-template-columns: repeat(2, 420px);
+    }
+
+}
+
+@media (max-width: 950px) {
+
+    .vault-card-grid-two,
+    .vault-card-grid-three {
+        grid-template-columns: 420px;
+    }
+
+    .vault-card {
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 500px) {
+
+    .vault-section {
+        padding: 36px 18px 55px;
+    }
+
+    .vault-card-grid-two,
+    .vault-card-grid-three {
+        grid-template-columns: 1fr;
+    }
+
+    .vault-card-image {
+        height: auto;
+        aspect-ratio: 16 / 9;
+    }
+
 }
 
 @media (max-width: 500px) {
