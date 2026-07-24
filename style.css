@@ -1638,3 +1638,36 @@ background: #ffffff;
     aspect-ratio: 16 / 9;
   }
 }
+
+/* ==========================
+   Vault Navigation
+========================== */
+
+.vault-nav {
+    background: #4777c8;
+}
+
+.vault-nav-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+    padding: 14px 20px;
+    flex-wrap: wrap;
+}
+
+.vault-nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: .95rem;
+    transition: opacity .2s;
+}
+
+.vault-nav-links a:hover {
+    opacity: .75;
+}
+
+.vault-nav-links span {
+    color: rgba(255,255,255,.55);
+}
