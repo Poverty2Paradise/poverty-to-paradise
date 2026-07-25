@@ -1676,3 +1676,71 @@ background: #ffffff;
     color: rgba(255,255,255,.55);
     font-size: 1.1rem;
 }
+/* =========================
+   MEMBERSHIP INSTRUCTIONS
+========================= */
+
+.membership-page {
+  padding: 55px 0 75px;
+  background: #ffffff;
+}
+
+.membership-wrap {
+  max-width: 800px;
+}
+
+.membership-wrap h2 {
+  margin: 0 0 18px;
+  color: #0E3A68;
+  text-align: left;
+}
+
+.membership-wrap p {
+  font-size: 1.05rem;
+  line-height: 1.7;
+}
+
+.membership-instruction-image {
+  width: 100%;
+  margin: 28px 0;
+  border: 1px solid #dddddd;
+  border-radius: 10px;
+  box-shadow: 0 10px 24px rgba(14, 58, 104, 0.12);
+}
+
+.membership-button {
+  display: inline-block;
+  margin-top: 8px;
+  padding: 14px 24px;
+  color: #ffffff;
+  background: #2A7A3B;
+  border-radius: 4px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.membership-button:hover {
+  background: #1e5c2c;
+}
+
+.membership-divider {
+  height: 1px;
+  margin: 55px 0;
+  background: #dddddd;
+}
+
+.membership-steps {
+  margin: 22px 0 28px;
+  padding-left: 24px;
+}
+
+.membership-steps li {
+  margin-bottom: 12px;
+  line-height: 1.6;
+}
+
+.membership-note {
+  margin-top: 22px;
+  font-size: 0.95rem !important;
+  font-style: italic;
+}
