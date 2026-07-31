@@ -1500,6 +1500,12 @@ footer nav a:hover { color: var(--gold); border-color: transparent; }
       rgba(255, 255, 255, 0.08) 100%
     );
 }
+.group-trips-banner .hero-banner-content p {
+    color: #ffffff;
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-shadow: 0 2px 8px rgba(0,0,0,.55);
+}
 
 .vault-course-card .home-option-image {
   width: 100%;
