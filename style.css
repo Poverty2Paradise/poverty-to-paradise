@@ -701,7 +701,7 @@ footer nav a:hover { color: var(--gold); border-color: transparent; }
 
 .trip-card-body .trip-label{
     font-family: var(--font-body);
-    font-size:16px;
+    font-size:10px;
     font-weight:700;
     letter-spacing:0;
     text-transform:none;
@@ -711,13 +711,13 @@ footer nav a:hover { color: var(--gold); border-color: transparent; }
 
 .trip-card-body h3 { font-size: 17px; margin: 0 0 6px; color: var(--black); }
 .trip-card-body .trip-detail {
-    font-size: 15px;
+    font-size: 10px;
     font-weight: 600;
     color: var(--black);
     margin: 0 0 2px;
 }
 .trip-card-body .nights {
-    font-size: 15px;
+    font-size: 10px;
     font-weight: 700;
     color: var(--black);
     margin: 0 0 8px;
@@ -726,7 +726,7 @@ footer nav a:hover { color: var(--gold); border-color: transparent; }
 .trip-card-body .trip-tag {
     font-family: var(--font-body);
     font-style: normal;
-    font-size: 16px;
+    font-size: 10px;
     font-weight: 700;
     color: var(--black);
     margin: 0 0 8px;
