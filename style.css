@@ -699,14 +699,14 @@ footer nav a:hover { color: var(--gold); border-color: transparent; }
     justify-content: space-between;
 }
 
-.trip-card-body .trip-label {
-    font-family: var(--font-mono);
-    font-size: 12px;
-    font-weight: 700;
-    letter-spacing: .08em;
-    text-transform: uppercase;
-    color: var(--black);
-    margin: 10px 0 8px;
+.trip-card-body .trip-label{
+    font-family: var(--font-body);
+    font-size:16px;
+    font-weight:700;
+    letter-spacing:0;
+    text-transform:none;
+    color:var(--black);
+    margin:10px 0 8px;
 }
 
 .trip-card-body h3 { font-size: 17px; margin: 0 0 6px; color: var(--black); }
