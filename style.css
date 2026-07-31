@@ -1481,10 +1481,14 @@ footer nav a:hover { color: var(--gold); border-color: transparent; }
       rgba(255, 255, 255, 0.08) 100%
     );
 }
+
+
 .group-trips-banner {
-  background-image: url("images/group-trips-hero.jpg") !important;
+  background-image: url("images/group-cruise.png") !important;
   background-position: center;
 }
+
+
 
 .group-trips-banner .hero-banner-overlay {
   background:
