@@ -1481,7 +1481,21 @@ footer nav a:hover { color: var(--gold); border-color: transparent; }
       rgba(255, 255, 255, 0.08) 100%
     );
 }
+.group-trips-banner {
+  background-image: url("images/group-trips-hero.jpg") !important;
+  background-position: center;
+}
 
+.group-trips-banner .hero-banner-overlay {
+  background:
+    linear-gradient(
+      90deg,
+      rgba(14, 58, 104, 0.94) 0%,
+      rgba(14, 58, 104, 0.82) 45%,
+      rgba(42, 122, 59, 0.38) 72%,
+      rgba(255, 255, 255, 0.08) 100%
+    );
+}
 
 .vault-course-card .home-option-image {
   width: 100%;
