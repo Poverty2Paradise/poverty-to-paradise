@@ -724,11 +724,12 @@ footer nav a:hover { color: var(--gold); border-color: transparent; }
 }
 
 .trip-card-body .trip-tag {
-  font-family: var(--font-display);
-  font-style: italic;
-  font-size: 14px;
-  color: var(--green);
-  margin: 8px 0 0;
+    font-family: var(--font-body);
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--black);
+    margin: 0 0 18px;
 }
 .trip-card-body .btn { margin-top: auto; padding-top: 16px; }
 
