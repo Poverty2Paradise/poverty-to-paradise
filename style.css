@@ -700,12 +700,13 @@ footer nav a:hover { color: var(--gold); border-color: transparent; }
 }
 
 .trip-card-body .trip-label {
-  font-family: var(--font-mono);
-  font-size: 10px;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-  color: var(--navy);
-  margin-bottom: 4px;
+    font-family: var(--font-mono);
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+    color: var(--black);
+    margin: 10px 0 8px;
 }
 
 .trip-card-body h3 { font-size: 17px; margin: 0 0 6px; color: var(--black); }
