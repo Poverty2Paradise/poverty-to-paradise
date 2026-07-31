@@ -126,7 +126,7 @@ nav a:hover, nav a.active { border-color: var(--gold); color: var(--gold); }
   padding-top: 140px;
   padding-bottom: 80px;
   background-size: cover;
-  background-position: center;
+  background-position: center 20%
 }
 
 .hero.short { min-height: 140px; padding: 40px 0; }
