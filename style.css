@@ -709,7 +709,19 @@ footer nav a:hover { color: var(--gold); border-color: transparent; }
 }
 
 .trip-card-body h3 { font-size: 17px; margin: 0 0 6px; color: var(--black); }
-.trip-card-body .trip-detail { font-size: 13px; color: var(--ink-soft); margin: 0 0 4px; }
+.trip-card-body .trip-detail {
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--black);
+    margin: 0 0 4px;
+}
+.trip-card-body .nights {
+    font-size: 15px;
+    font-weight: 700;
+    color: var(--black);
+    margin: 0 0 12px;
+}
+
 .trip-card-body .trip-tag {
   font-family: var(--font-display);
   font-style: italic;
