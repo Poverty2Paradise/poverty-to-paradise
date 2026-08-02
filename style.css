@@ -932,7 +932,7 @@ footer nav a:hover { color: var(--gold); border-color: transparent; }
   .nav-toggle { display: block; }
   .site-header .wrap { position: relative; }
 
-  nav {
+.site-header nav {
     display: none;
     position: absolute;
     top: 100%;
@@ -945,7 +945,7 @@ footer nav a:hover { color: var(--gold); border-color: transparent; }
     z-index: 30;
   }
 
-  nav.open { display: flex; }
+  .site-header nav.open { display: flex; }
   nav a { padding: 14px 24px; font-size: 15px; letter-spacing: 0.04em; border-bottom: none; }
 
   .wrap { padding: 0 20px; }
