@@ -1796,7 +1796,7 @@ background: #ffffff;
 }
 
 .experience-card h3{
-    min-height:95px;
+    min-height:0px;
 }
 
 .experience-card p:last-child{
