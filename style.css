@@ -1808,3 +1808,12 @@ background: #ffffff;
         min-height:auto;
     }
 }
+.experience-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    display: block;
+    margin: -32px -28px 20px;
+    width: calc(100% + 56px);
+    border-bottom: 1px solid var(--line);
+}
