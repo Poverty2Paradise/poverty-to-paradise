@@ -1819,3 +1819,8 @@ margin: 0 auto;
     width: calc(100% + 56px);
     border-bottom: 1px solid var(--line);
 }
+.kit-form{
+    display:flex;
+    justify-content:center;
+    margin:32px auto 0;
+}
