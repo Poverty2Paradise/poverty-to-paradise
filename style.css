@@ -983,7 +983,7 @@ footer nav a:hover { color: var(--gold); border-color: transparent; }
   display: flex;
   align-items: center;
   background-image:
-    url('images/waterfall.png'));
+    url('images/waterfall.png');
   background-size: cover;
   background-position: center 58%;
   overflow: hidden;
