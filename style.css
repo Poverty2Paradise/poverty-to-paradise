@@ -266,7 +266,7 @@ nav a:hover, nav a.active { border-color: var(--gold); color: var(--gold); }
 
 /* ---------- sections ---------- */
 
-section { padding: 88px 0; }
+section { padding: 20px 0; }
 .section-narrow { max-width: 760px; margin: 0 auto; }
 .section-head { max-width: 620px; margin-bottom: 48px; }
 
