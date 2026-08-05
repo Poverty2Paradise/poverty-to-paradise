@@ -364,7 +364,7 @@ p { margin: 0 0 16px; color: var(--ink-soft); }
 
 .card .tag {
   font-family: var(--font-mono);
-  font-size: 14px;
+  font-size: 20px;
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: var(--navy);
