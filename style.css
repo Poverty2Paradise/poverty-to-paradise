@@ -977,16 +977,18 @@ footer nav a:hover { color: var(--gold); border-color: transparent; }
 
 /* Short cruise banner */
 
-.hero-banner {
-  position: relative;
-  min-height: 200px;
-  display: flex;
-  align-items: center;
-  background-image:
-    url('images/waterfall.png');
-  background-size: cover;
-  background-position: center 58%;
-  overflow: hidden;
+.hero-banner{
+    position:relative;
+    min-height:520px;
+    display:flex;
+    align-items:center;
+    background-size:cover;
+    background-position:center;
+    overflow:hidden;
+}
+
+.home-hero .hero-banner{
+    background-image:url('images/group-cruise.png.jpg');
 }
 
 .hero-banner-overlay {
