@@ -987,8 +987,9 @@ footer nav a:hover { color: var(--gold); border-color: transparent; }
     overflow:hidden;
 }
 
-.home-hero .hero-banner{
-    background-image:url('images/group-cruise.png.jpg');
+.home-hero .hero-banner {
+    background-image: url('images/unsplash-beach.png');
+    background-position: center center;
 }
 
 .hero-banner-overlay {
