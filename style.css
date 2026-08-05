@@ -1815,7 +1815,7 @@ background: #ffffff;
 background: #fff;
   display: block;
 margin: 0 auto;
-    margin: -32px -28px 20px;
+   margin: 0 0 20px;
     width: calc(100% + 56px);
     border-bottom: 1px solid var(--line);
 }
