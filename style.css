@@ -979,7 +979,7 @@ footer nav a:hover { color: var(--gold); border-color: transparent; }
 
 .hero-banner{
     position:relative;
-    min-height:520px;
+    min-height:320px;
     display:flex;
     align-items:center;
     background-size:cover;
