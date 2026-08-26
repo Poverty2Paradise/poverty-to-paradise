@@ -1558,7 +1558,7 @@ footer nav a:hover { color: var(--gold); border-color: transparent; }
 
 .vault-card-grid {
   display: grid;
-  gap: 28px;
+  gap: 40px;
   justify-content: center;
 }
 
