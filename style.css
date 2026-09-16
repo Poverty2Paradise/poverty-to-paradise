@@ -659,7 +659,7 @@ footer nav a:hover { color: var(--gold); border-color: transparent; }
 
 .trip-cards-grid {
   display: grid;
- grid-template-columns: repeat(3, 320px);
+ grid-template-columns: repeat(auto-fit, 320px);
 justify-content: center;
   gap: 24px;
 }
