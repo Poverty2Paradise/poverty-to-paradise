@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Carnival P2P Freedom Cruises | Poverty to Paradise</title>
+<meta name="description" content="Join a P2P Freedom Cruise aboard Carnival Mardi Gras or Carnival Magic and get started with registration and cruise booking.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,400&family=DM+Serif+Display:ital@0;1&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a href="/" class="brand">
+      <img src="images/P2Plogo.png" alt="Poverty to Paradise logo" class="brand-logo">
+      Poverty to Paradise
+    </a>
+    <nav>
+      <a href="/">Home</a>
+      <a href="/book-a-cruise">Book a Cruise</a>
+      <a href="/group-trips">Group Trips</a>
+<a href="/vault">P2P Vault</a>
+<a href="/video-playlists">Video Playlists</a>
+<a href="/about">About</a>
+    </nav>
+    <button class="nav-toggle" aria-label="Open navigation" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+  
+<section class="hero short book-hero" style="background-image:url('images/unsplash-beach.png');">
+
+  
+  <div class="wrap hero-content">
+    <p class="eyebrow"></p>
+    
+    <h1>Carnival P2P Freedom Cruises</h1>
+
+<p class="lede">Choose your P2P Freedom Cruise aboard Carnival Mardi Gras or Carnival Magic.</p>
+
+  </div>
+</section>
+
+<section class="page-section">
+  <div class="wrap section-narrow">
+
+    <div class="form-panel">
+      <h2>Join a Carnival P2P Freedom Cruise</h2>
+
+      <p>
+        Sailing with P2P on Carnival Mardi Gras or Carnival Magic? Complete both steps below to join the P2P group.
+      </p>
+
+      <h3>1. Book Your Cruise</h3>
+      <p>
+        Book your cabin through the P2P travel advisor.
+      </p>
+      <p>
+        <a href="/book-a-cruise#booking-form" class="btn btn-primary">
+          BOOK YOUR CRUISE
+        </a>
+      </p>
+
+      <h3>2. Register With P2P</h3>
+      <p>
+        After booking your cruise, complete your P2P Freedom Cruise registration.
+      </p>
+      <p>
+        <a href="https://travefy.com/f/6ws9rqea9emqra2uwxzkmnc2f6kvzqwena" class="btn btn-primary">
+          REGISTER WITH P2P
+        </a>
+      </p>
+
+    </div>
+
+  </div>
+</section>
+
+
+
+
+<footer class="site-footer">
+  <div class="wrap">
+
+    <div class="footer-grid">
+
+      <div class="footer-brand">
+        <a href="/" class="brand">
+        <img src="images/White-backgroundP2Plogo.png"
+            alt="Poverty to Paradise logo"
+            class="brand-logo"
+          >
+          Poverty to Paradise
+        </a>
+
+        <p>
+          Helping ordinary people create extraordinary lives through practical
+          education, travel, and real-world experience.
+        </p>
+      </div>
+
+      <div class="footer-column">
+        <h3>Travel</h3>
+        <a href="/book-a-cruise">Book a Cruise</a>
+        <a href="/group-trips">Group Trips</a>
+      </div>
+
+      <div class="footer-column">
+        <h3>Resources</h3>
+        <a href="/vault">P2P Vault</a>
+    <a href="/video-playlists">Video Playlists</a>
+      </div>
+
+      <div class="footer-column">
+        <h3>Company</h3>
+        <a href="/about">About Lynnelle</a>
+        <a href="/contact">Contact Me</a>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <p>
+        Poverty to Paradise is an independent travel advisory. Cruise fares,
+        availability, and final terms are set by the cruise line at the time of booking.
+      </p>
+
+      <p>© 2026 Poverty to Paradise. All rights reserved.</p>
+    </div>
+
+  </div>
+</footer>
+
+<script>
+(function(){
+  var btn = document.querySelector('.nav-toggle');
+  var nav = document.querySelector('.site-header nav');
+  if (!btn || !nav) return;
+  btn.addEventListener('click', function(){
+    var open = nav.classList.toggle('open');
+    btn.classList.toggle('open', open);
+    btn.setAttribute('aria-expanded', String(open));
+  });
+  document.addEventListener('click', function(e){
+    if (nav.classList.contains('open') && !e.target.closest('.site-header')) {
+      nav.classList.remove('open');
+      btn.classList.remove('open');
+      btn.setAttribute('aria-expanded', 'false');
+    }
+  });
+})();
+</script>
+</body>
+</html>
