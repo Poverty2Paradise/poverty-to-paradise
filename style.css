@@ -1885,3 +1885,10 @@ margin: 0 auto;
     height: 45px;
   }
 }
+
+/* Supercar Blondie logo background */
+.media-logos a:nth-child(2) {
+  background: #111111;
+  padding: 10px 15px;
+  border-radius: 6px;
+}
