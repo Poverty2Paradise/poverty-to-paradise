@@ -40,43 +40,131 @@
 
 
 
-<section>
+<section class="playlist-section">
   <div class="wrap">
     <p class="section-label">EXPLORE MY VIDEOS</p>
-
     <h2>Find Your Next Favorite Cruise Video!</h2>
+    <p>Choose a topic below to explore my YouTube playlists.</p>
 
-    <p style="max-width:700px;">
-      From living full-time on cruise ships to ship tours,
-      cabin tours, cruise costs, and casino deals,
-      explore my YouTube videos organized by topic.
-    </p>
+    <div class="playlist-grid">
 
-    <h3>Browse My Playlists</h3>
-
-    <p style="max-width:700px;">
-      Whether you're planning your next cruise or curious
-      about life at sea, there's something here for you!
-    </p>
-
-    <div style="text-align:center; margin:36px 0;">
-      <a href="https://www.youtube.com/@PovertyToParadise/playlists"
-         class="btn btn-primary"
-         target="_blank"
-         rel="noopener noreferrer">
-        Explore All 12 Playlists
+      <a class="playlist-card" href="https://www.youtube.com/playlist?list=PLgyUcOko-lHg_D79x7ljWu6Tp1aw5MJOF" target="_blank" rel="noopener noreferrer">
+        <h3>How Much It Costs Me To Live On Cruise Ships</h3>
+        <span>Watch Playlist →</span>
       </a>
-    </div>
 
-    <p style="max-width:700px;">
-      <strong>Looking for something specific?</strong>
-      Search YouTube for your topic followed by
-      Poverty to Paradise.
-    </p>
+      <a class="playlist-card" href="https://www.youtube.com/playlist?list=PLgyUcOko-lHjDUIWs98vutYqXpcyy7pLs" target="_blank" rel="noopener noreferrer">
+        <h3>Living Full-Time on Cruise Ships</h3>
+        <span>Watch Playlist →</span>
+      </a>
+
+      <a class="playlist-card" href="https://www.youtube.com/playlist?list=PLgyUcOko-lHgSCduvw2_RxPmSyjkEkomf" target="_blank" rel="noopener noreferrer">
+        <h3>Cruise Casino Deals</h3>
+        <span>Watch Playlist →</span>
+      </a>
+
+      <a class="playlist-card" href="https://www.youtube.com/playlist?list=PLgyUcOko-lHjvtkx9DALvJShA2Y3yJm4U" target="_blank" rel="noopener noreferrer">
+        <h3>How I Book Free Cruises</h3>
+        <span>Watch Playlist →</span>
+      </a>
+
+      <a class="playlist-card" href="https://www.youtube.com/playlist?list=PLCXEuyMNznAg" target="_blank" rel="noopener noreferrer">
+        <h3>How I Deal With Medical Issues</h3>
+        <span>Watch Playlist →</span>
+      </a>
+
+      <a class="playlist-card" href="https://www.youtube.com/playlist?list=PLXh74o6JwhGY" target="_blank" rel="noopener noreferrer">
+        <h3>How I Get My Hair Done Living on Cruise Ships</h3>
+        <span>Watch Playlist →</span>
+      </a>
+
+      <a class="playlist-card" href="https://www.youtube.com/playlist?list=PLgyUcOko-lHhIBR5FcQThnDamm4Ww6TqV" target="_blank" rel="noopener noreferrer">
+        <h3>Royal Caribbean Cruise Ships</h3>
+        <span>Watch Playlist →</span>
+      </a>
+
+      <a class="playlist-card" href="https://www.youtube.com/playlist?list=PLgyUcOko-lHiCwA7bSCP6-sa8LLDnhOlS" target="_blank" rel="noopener noreferrer">
+        <h3>Carnival Cruise Ships</h3>
+        <span>Watch Playlist →</span>
+      </a>
+
+      <a class="playlist-card" href="https://www.youtube.com/playlist?list=PLgyUcOko-lHhIBR5FcQThnDamm4Ww6TqV" target="_blank" rel="noopener noreferrer">
+        <h3>Cruise Ship Tours</h3>
+        <span>Watch Playlist →</span>
+      </a>
+
+      <a class="playlist-card" href="https://www.youtube.com/playlist?list=PLgyUcOko-lHiMhThhhUICc8gVbCjr2QfN" target="_blank" rel="noopener noreferrer">
+        <h3>Back to Back Cruises</h3>
+        <span>Watch Playlist →</span>
+      </a>
+
+    </div>
   </div>
 </section>
 
+<style>
+.playlist-section {
+  padding: 45px 0 65px;
+}
 
+.playlist-section > .wrap > p:not(.section-label) {
+  margin-bottom: 30px;
+}
+
+.playlist-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.playlist-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 22px;
+  padding: 24px;
+  background: #fff;
+  border: 1px solid #e2e5e8;
+  border-top: 3px solid #24456b;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: transform .2s, box-shadow .2s;
+}
+
+.playlist-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 22px rgba(0,0,0,.1);
+}
+
+.playlist-card h3 {
+  margin: 0;
+  color: #19365a;
+  font-family: 'DM Serif Display', serif;
+  font-size: 21px;
+  line-height: 1.3;
+}
+
+.playlist-card span {
+  color: #347b43;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: .04em;
+}
+
+@media (max-width: 800px) {
+  .playlist-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 520px) {
+  .playlist-grid {
+    grid-template-columns: 1fr;
+  }
+}
+</style>
 
 
   
